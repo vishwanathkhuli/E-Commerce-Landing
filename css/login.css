@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif, monospace;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.signup-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 10px 10px lightgrey;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 20rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.signup-login-container .input-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.signup-login-container .input-containers input {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid lightgrey;
+    box-shadow: -2px 2px 0px 0px lightgrey;
+    color: black;
+    box-sizing: border-box;
+}
+
+.signup-login-container .input-containers input::placeholder {
+    font-family: sans-serif, monospace;
+}
+
+button {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid lightgrey;
+    box-shadow: -2px 2px 0px 0px lightgrey;
+    color: white;
+    box-sizing: border-box;
+}
+
+.signIn-btn:hover,
+.logIn-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.signup-login-container p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.signup-login-container p a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-login-container p a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .signup-login-container {
+        max-width: 90%;
+        padding: 1rem 0.5rem;
+    }
+
+    .signup-login-container .input-containers input {
+        padding: 0.75rem;
+        font-size: 0.875rem;
+    }
+
+    button {
+        padding: 0.75rem;
+        font-size: 0.875rem;
+    }
+
+    .signup-login-container p {
+        font-size: 0.875rem;
+    }
+}
