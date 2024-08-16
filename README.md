@@ -16,15 +16,15 @@ This project is a stylish e-commerce landing page showcasing products, categorie
 
 ### Home Page
 
-![Home Page](screenshots/home-page.png)
+![Home Page](./Imges/Index Page.png)
 
-### Categories Section
+### Login Page
 
-![Categories Section](screenshots/categories-section.png)
+![Login Page](./Imges/Login Page.png)
 
-### Featured Products
+### Shopping Page
 
-![Featured Products](screenshots/featured-products.png)
+![Shopping Page](./Imges/Shopping Page.png)
 
 ### Testimonials
 
