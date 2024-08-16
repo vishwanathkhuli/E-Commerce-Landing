@@ -20,12 +20,8 @@ This project is a stylish e-commerce landing page showcasing products, categorie
 
 ### Login Page
 
-![Login Page](./Imges/Login Page.png)
+![Login Page](./Imges/Login-Page.png)
 
 ### Shopping Page
 
-![Shopping Page](./Imges/Shopping Page.png)
-
-### Testimonials
-
-![Testimonials](screenshots/testimonials.png)
+![Shopping Page](./Imges/Shopping-Page.png)
