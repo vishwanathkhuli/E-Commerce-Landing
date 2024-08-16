@@ -16,7 +16,7 @@ This project is a stylish e-commerce landing page showcasing products, categorie
 
 ### Home Page
 
-![Home Page](./Imges/Index Page.png)
+![Home Page](./Imges/Index-Page.png)
 
 ### Login Page
 
